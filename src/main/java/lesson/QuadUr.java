@@ -20,6 +20,7 @@ public class QuadUr {
         System.out.println("x2="+x2);
         }
 
+
         if(D==0){
             int x=-b/(2*a);
             System.out.println("x="+x);
