@@ -3,7 +3,7 @@ package lesson;
 import java.util.Scanner;
 
 
-public class justice {
+public class Justice {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in); //create scanner
 
@@ -14,6 +14,13 @@ public class justice {
         int countFamily=sc.nextInt();
         System.out.println("Price");
         int price=sc.nextInt();
+
+
+
+        if(money<0||countFamily<0||price<0){
+            System.out.println("Ar u gay");
+            System.exit(0);
+        }
 
         if(money-(price*countFamily)>0){
             System.out.println("U can buy it");
