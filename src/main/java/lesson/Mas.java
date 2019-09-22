@@ -5,8 +5,8 @@ public class Mas {
         int[] mas;
         mas=new int[10];
 
-        for (int i = 0; i <10; i++) {
-            mas[i]=(int) (Math.random()*100);
+        for (int i = 0; i < 10; i++) {
+            mas[i] = (int) (Math.random()*100);
         }
         int temp;
 
@@ -20,7 +20,7 @@ public class Mas {
             }
         }
 
-        for (int i = 0; i <10 ; i++) {
+        for (int i = 0; i < 10 ; i++) {
             System.out.println(mas[i]);
         }
     }

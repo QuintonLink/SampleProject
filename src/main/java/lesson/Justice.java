@@ -9,11 +9,11 @@ public class Justice {
 
 
         System.out.println("Money:");
-        int money= sc.nextInt();
+        int money = sc.nextInt();
         System.out.println("Family:");
-        int countFamily=sc.nextInt();
+        int countFamily = sc.nextInt();
         System.out.println("Price:");
-        int price=sc.nextInt();
+        int price = sc.nextInt();
 
 
 
@@ -22,7 +22,7 @@ public class Justice {
             System.exit(0);
         }
 
-        if(money-(price*countFamily)>=0){
+        if(money - (price * countFamily) >= 0){
             System.out.println("U can buy it");
         }
         else{
