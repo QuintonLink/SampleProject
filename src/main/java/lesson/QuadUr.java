@@ -21,11 +21,10 @@ public class QuadUr {
         }
 
 
-        if(D == 0){
-            int x = -b/(2*a);
+        if(D == 0) {
+            int x = -b / (2 * a);
             System.out.println("x=" + x);
-        }
-        if(D < 0){
+        } else{
             System.out.println("Ar u gay");
         }
     }
