@@ -13,10 +13,10 @@ import java.util.Scanner;
 public class Min {
 
     public static int minNum(int a, int b, int c){
-        if(a > b && c > b){
+        if(a >= b && c >= b){
         return b;
         }
-        if(b > a && c > a){
+        if(b >= a && c >= a){
         return a;
         }
         return c;
