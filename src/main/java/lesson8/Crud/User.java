@@ -23,4 +23,12 @@ public class User {
     public String getId() {
         return id;
     }
+
+    public String toString() {
+        return "User{" +
+                "login='" + login + '\'' +
+                ", password='" + password + '\'' +
+                ", id='" + id + '\'' +
+                '}';
+    }
 }
